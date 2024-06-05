@@ -1,0 +1,42 @@
+{
+  "Training": {
+    "Player": {
+      "Pos": [ 0.0, 50.0, -100.0 ]
+    },
+    "Enemy": {
+      "MaxWave": 1,
+      "Wave1": {
+        "Training": {
+          "PopCount": 1,
+          "PopPos": [ 0.0, 0.0, 0.0 ]
+        }
+      }
+    }
+  },
+  "Story": {
+    "Player": {
+      "Pos": [ 0.0, 50.0, -100.0 ]
+    },
+    "Enemy": {
+      "MaxWave": 3,
+      "Wave1": {
+        "Normal": {
+          "PopCount": 1,
+          "PopPos": [ 100.0, 70.0, 100.0 ]
+        }
+      },
+      "Wave2": {
+        "Normal": {
+          "PopCount": 1,
+          "PopPos": [ -100.0, 70.0, 100.0 ]
+        }
+      },
+      "Wave3": {
+        "Normal": {
+          "PopCount": 1,
+          "PopPos": [ 0.0, 70.0, 100.0 ]
+        }
+      }
+    }
+  }
+}

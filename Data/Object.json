@@ -1,0 +1,56 @@
+{
+  "Player": {
+    "Hp": 100,
+    "Scale": 10,
+    "Gravity": 0,
+    "GravityAccel": 0.002,
+    "MoveAccel": 0.2,
+    "DownSpeed": 0.94,
+    "MoveSpeedMax": 1.5,
+    "Ang": 0,
+    "LookAng": 0,
+    "GaugeMax": 550,
+    "Speed": 3,
+    "BoostDownSpeed": 0.98,
+    "BoostAccel": 0.5,
+    "Heal": 2,
+    "HealTime": 180,
+    "HealSpeed": 1.5,
+    "Cost": 20
+  },
+  "Enemy": {
+    "Training": {
+      "Hp": 100,
+      "CoolTime": 0
+    }
+  },
+  "Weapon": {
+    "Rifle": {
+      "Class": "Rifle",
+      "Scale": 5,
+      "BulletMax": 30,
+      "BulletScale": 10,
+      "BulletSpeed": [ 0, 0, 100 ],
+      "ShotCoolTime": 5,
+      "ReloadTime": 150
+    },
+    "Rocket": {
+      "Class": "Rocket",
+      "Scale": 2,
+      "BulletMax": 12,
+      "BulletScale": 2,
+      "BulletSpeed": [ 0, 2, 3 ],
+      "ShotCoolTime": 12,
+      "ReloadTime": 180
+    },
+    "EleGun": {
+      "Class": "EleGun",
+      "Scale": 2,
+      "BulletMax": 15,
+      "BulletScale": 10,
+      "BulletSpeed": [ 0, 0, 100 ],
+      "ShotCoolTime": 60,
+      "ReloadTime": 150
+    }
+  }
+}

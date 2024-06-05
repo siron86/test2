@@ -1,0 +1,272 @@
+{
+  "Stage": {
+    "Ground": {
+      "StageSize": 10,
+      "Type": [
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,1
+      ]
+    },
+    "Building": [
+      {
+        "Pos": [ 100, 0, 0 ],
+        "number": 1,
+        "Select": true,
+        "ModelData": "Asset/Models/Stage/Building/Apartment.gltf"
+      },
+      {
+        "Pos": [ 200, 0, 0 ],
+        "number": 2,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 300, 0, 0 ],
+        "number": 3,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 400, 0, 0 ],
+        "number": 4,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 500, 0, 0 ],
+        "number": 5,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 600, 0, 0 ],
+        "number": 6,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 7,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 750, 0, 0 ],
+        "number": 8,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 800, 0, 0 ],
+        "number": 9,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 850, 0, 0 ],
+        "number": 10,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 900, 0, 0 ],
+        "number": 11,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 950, 0, 0 ],
+        "number": 12,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 1000, 0, 0 ],
+        "number": 13,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 1050, 0, 0 ],
+        "number": 14,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 15,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 16,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 17,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 18,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 19,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 20,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 21,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 22,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 23,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 24,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 25,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 26,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 27,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 28,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 29,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 30,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 31,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 32,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 33,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 34,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 35,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 36,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 37,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 38,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 39,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 40,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 41,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 42,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 43,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 44,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 45,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 46,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 47,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 48,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 49,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      },
+      {
+        "Pos": [ 700, 0, 0 ],
+        "number": 50,
+        "ModelData": "Asset/Models/Stage/Building/Building.gltf"
+      }
+    ]
+  }
+}
