@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Library">
+      <UniqueIdentifier>{d5173dcf-2786-4f98-bd55-d03549637dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{80d0a5a9-6779-4863-bede-cc22a4986dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework">
+      <UniqueIdentifier>{f5928314-3ee2-4e39-abfa-d93aa9ee5891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Direct3D">
+      <UniqueIdentifier>{f193abd5-e51c-466e-a937-722bc9175e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Utility">
+      <UniqueIdentifier>{f5d733b1-5031-4659-a9d4-0dd3add1e5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Window">
+      <UniqueIdentifier>{cb022f2a-c5a2-449b-9b70-5110aff8550f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\tinygltf">
+      <UniqueIdentifier>{307bfbcd-124f-4ad7-85f5-3fd94f814b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Shader">
+      <UniqueIdentifier>{93543c0c-58fe-4a94-8279-7be3021b65b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Shader\SpriteShader">
+      <UniqueIdentifier>{2da4d471-f4e8-4b2d-bdef-b93f91523b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application">
+      <UniqueIdentifier>{d0d0f9cf-dabd-4346-bc9a-d9c04cf42372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Math">
+      <UniqueIdentifier>{04f33e76-24f0-4a58-9355-5770b3f6f9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Audio">
+      <UniqueIdentifier>{2a0de30f-d7e8-4517-a9a1-20de6e434592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Shader\HD2DShader">
+      <UniqueIdentifier>{857913be-4481-4606-9719-87518d4a6aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System">
+      <UniqueIdentifier>{256347e2-b865-40db-a803-ea2406075a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Shader\PostProcessShader">
+      <UniqueIdentifier>{bfef98c3-f0b2-41b1-b813-6f298072287b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\System">
+      <UniqueIdentifier>{4bdc25a2-3137-4213-a263-36b8d2ec5162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\GameObject">
+      <UniqueIdentifier>{d45ba257-913b-44e3-a012-888d7b6f2b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Input">
+      <UniqueIdentifier>{9bd33b87-53db-4bc0-b98d-80db98f4ba9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Direct3D\Polygon">
+      <UniqueIdentifier>{b91bce2d-4487-485a-a855-b2bb6ce0d30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object">
+      <UniqueIdentifier>{38015828-4ba5-4cde-8bb5-c8f7ceddb4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene">
+      <UniqueIdentifier>{b69d9297-0e9b-4f98-b4da-a1833ba88a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Ui">
+      <UniqueIdentifier>{913ddc36-f927-41ef-a7c7-175dd532e4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Ui\EnemyUi">
+      <UniqueIdentifier>{9712cea8-ae02-43d5-9ebf-e7ca9a9761bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Ui\PlayerUi">
+      <UniqueIdentifier>{402e10bc-2d1e-47fc-9771-3e2fde0bb410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Ui\SelectUi">
+      <UniqueIdentifier>{63aa6080-b14f-4115-aa06-acf1704322a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Ui\TitleUi">
+      <UniqueIdentifier>{cc0b6158-d121-433a-874e-9f9df388066d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene\BaseScene">
+      <UniqueIdentifier>{033d1880-c8f1-4bfc-b143-3c9fe8bf5067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene\GameScene">
+      <UniqueIdentifier>{4b939ebf-ea76-4084-829b-ae3012e2ddd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene\SelectScene">
+      <UniqueIdentifier>{e3234d07-f502-45e1-9c03-ce5f0a71b272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Scene\TitleScene">
+      <UniqueIdentifier>{08103c7b-c69f-431a-97e5-b7d94f909c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject">
+      <UniqueIdentifier>{b01c8f0f-d465-4565-8cca-1bbd8e046656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\SelectObject">
+      <UniqueIdentifier>{08ae515a-dbd1-4bcb-8c92-8fd6ab4f2de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\TitleObject">
+      <UniqueIdentifier>{90cc3aa1-1435-42a0-a611-8df1949fffae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\Camera">
+      <UniqueIdentifier>{34dd82ed-3a39-4975-8dab-b8de1b5b60a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\Camera\CameraBase">
+      <UniqueIdentifier>{f28a5a6a-3e26-411d-8258-512d5188c675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\Camera\FreeCamera">
+      <UniqueIdentifier>{1822cf0b-5142-45bd-852c-a8304670b216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\Camera\SelectCamera">
+      <UniqueIdentifier>{0ce5f066-48d0-435b-bc29-28f957f78a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\Camera\GameCamera">
+      <UniqueIdentifier>{328a8566-fcb2-4462-9749-00d5115b4656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Enemy">
+      <UniqueIdentifier>{ea5e659f-2492-47f6-afdf-a18b34c58cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\ObjectSystem">
+      <UniqueIdentifier>{74df1bd2-d9f5-4aa4-987c-b3646a01150f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Player">
+      <UniqueIdentifier>{981af67a-ac60-4355-9e9c-cc021dc0b667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Stage">
+      <UniqueIdentifier>{e52dbb08-c942-4e57-8730-fe58090739d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Weapon">
+      <UniqueIdentifier>{f1e136ac-fb15-4f8b-b6d5-f636f9d13130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Enemy\NormalEnemy">
+      <UniqueIdentifier>{c028f443-4b97-4eb8-8642-90e1f4e3b415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Enemy\TrainingEnemy">
+      <UniqueIdentifier>{15769b12-e23e-4971-a4b3-67eac9797ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Weapon\Bullet">
+      <UniqueIdentifier>{fdeca87e-3892-447b-83d0-f8ed39f8a814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Weapon\EleGun">
+      <UniqueIdentifier>{e60512d4-b6c7-464a-81bf-febe70990917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Weapon\Rifle">
+      <UniqueIdentifier>{271304d6-9342-4c17-8819-ca03183cdf83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Weapon\Rocket">
+      <UniqueIdentifier>{5e14cecc-0876-4fb2-b87b-1144579470d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Stage\Ground">
+      <UniqueIdentifier>{9fc818f2-4848-465f-af62-833da5296e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Stage\Sky">
+      <UniqueIdentifier>{9624eb23-8ee9-47d0-9516-57b681557d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\Stage\StageObject">
+      <UniqueIdentifier>{bd9e604d-b5f1-4b90-b1d9-c9efff0ec59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\ImGui">
+      <UniqueIdentifier>{32395a0a-478b-4d4b-9c40-fdf638976fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Json11">
+      <UniqueIdentifier>{36c36884-b81a-400e-8329-3a818613743f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Framework\Effekseer">
+      <UniqueIdentifier>{81057480-5d27-451c-ac9a-a29965bf85f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\GameObject\ObjectSystem\Animation">
+      <UniqueIdentifier>{204b2382-6957-4455-8e3f-af35241f1499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\ResultObject">
+      <UniqueIdentifier>{7b4461da-1752-4075-9e81-fac4d3a8bffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Ui\GameUi">
+      <UniqueIdentifier>{5b72b8c7-c40f-49a0-9f20-3b68b2b4bbe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Json">
+      <UniqueIdentifier>{b9158bad-c258-41d5-a80a-e907c22aefdd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Pch.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tinygltf\json.hpp">
+      <Filter>Library\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tinygltf\stb_image.h">
+      <Filter>Library\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tinygltf\stb_image_write.h">
+      <Filter>Library\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tinygltf\tiny_gltf.h">
+      <Filter>Library\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\main.h">
+      <Filter>Src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\Direct3D\KdDirect3D.h">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\Direct3D\KdTexture.h">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\Direct3D\KdBuffer.h">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Direct3D\KdGLTFLoader.h">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Shader\KdShaderManager.h">
+      <Filter>Src\Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Shader\SpriteShader\KdSpriteShader.h">
+      <Filter>Src\Framework\Shader\SpriteShader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\Utility\KdUtility.h">
+      <Filter>Src\Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\KdFramework.h">
+      <Filter>Src\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\strconv.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\Window\KdWindow.h">
+      <Filter>Src\Framework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\Direct3D\KdMesh.h">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Direct3D\KdModel.h">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Math\KdCollision.h">
+      <Filter>Src\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Math\KdAnimation.h">
+      <Filter>Src\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Audio\KdAudio.h">
+      <Filter>Src\Framework\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Direct3D\KdCamera.h">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Shader\HD2DShader\KdHD2DShader.h">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Shader\PostProcessShader\KdPostProcessShader.h">
+      <Filter>Src\Framework\Shader\PostProcessShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Math\KdCollider.h">
+      <Filter>Src\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Math\KdEasing.h">
+      <Filter>Src\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\GameObject\KdGameObject.h">
+      <Filter>Src\Framework\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\GameObject\KdGameObjectFactory.h">
+      <Filter>Src\Framework\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Input\KdInput.h">
+      <Filter>Src\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Utility\KdCSVData.h">
+      <Filter>Src\Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Direct3D\Polygon\KdPolygon.h">
+      <Filter>Src\Framework\Direct3D\Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Direct3D\Polygon\KdSquarePolygon.h">
+      <Filter>Src\Framework\Direct3D\Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Direct3D\Polygon\KdTrailPolygon.h">
+      <Filter>Src\Framework\Direct3D\Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Direct3D\KdMaterial.h">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Utility\KdDataStorage.h">
+      <Filter>Src\Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Shader\KdAmbientController.h">
+      <Filter>Src\Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Math\KdUVAnimation.h">
+      <Filter>Src\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Shader\KdRenderTargetChange.h">
+      <Filter>Src\Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Utility\KdFPSController.h">
+      <Filter>Src\Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Utility\KdDebugWireFrame.h">
+      <Filter>Src\Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Ui\UiBase.h">
+      <Filter>Src\Application\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Ui\TitleUi\TitleUi.h">
+      <Filter>Src\Application\Ui\TitleUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Ui\SelectUi\SelectUi.h">
+      <Filter>Src\Application\Ui\SelectUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Ui\PlayerUi\PlayerUi.h">
+      <Filter>Src\Application\Ui\PlayerUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Ui\EnemyUi\EnemyUi.h">
+      <Filter>Src\Application\Ui\EnemyUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\SceneManager.h">
+      <Filter>Src\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\TitleScene\TitleScene.h">
+      <Filter>Src\Application\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\SelectScene\SelectScene.h">
+      <Filter>Src\Application\Scene\SelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\GameScene\GameScene.h">
+      <Filter>Src\Application\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\BaseScene\BaseScene.h">
+      <Filter>Src\Application\Scene\BaseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Title\TitleObject.h">
+      <Filter>Src\Application\Object\TitleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Select\SelectObject.h">
+      <Filter>Src\Application\Object\SelectObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Camera\CameraBase\CameraBase.h">
+      <Filter>Src\Application\Object\Camera\CameraBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Camera\FreeCamera\FreeCamera.h">
+      <Filter>Src\Application\Object\Camera\FreeCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Camera\GameCamera\GameCamera.h">
+      <Filter>Src\Application\Object\Camera\GameCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Player\Player.h">
+      <Filter>Src\Application\Object\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\ObjectSystem\ObjectSystem.h">
+      <Filter>Src\Application\Object\GameObject\ObjectSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Enemy\EnemyBase.h">
+      <Filter>Src\Application\Object\GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Enemy\TrainingEnemy\TrainingEnemy.h">
+      <Filter>Src\Application\Object\GameObject\Enemy\TrainingEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Enemy\NormalEnemy\NormalEnemy.h">
+      <Filter>Src\Application\Object\GameObject\Enemy\NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Stage\Stage.h">
+      <Filter>Src\Application\Object\GameObject\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Stage\StageObject\StageObject.h">
+      <Filter>Src\Application\Object\GameObject\Stage\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Stage\Sky\Sky.h">
+      <Filter>Src\Application\Object\GameObject\Stage\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Stage\Ground\Ground.h">
+      <Filter>Src\Application\Object\GameObject\Stage\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Weapon\WeaponBase.h">
+      <Filter>Src\Application\Object\GameObject\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Weapon\Rocket\Rocket.h">
+      <Filter>Src\Application\Object\GameObject\Weapon\Rocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Weapon\Rifle\Rifle.h">
+      <Filter>Src\Application\Object\GameObject\Weapon\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Weapon\EleGun\EleGun.h">
+      <Filter>Src\Application\Object\GameObject\Weapon\EleGun</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\Weapon\Bullet\Bullet.h">
+      <Filter>Src\Application\Object\GameObject\Weapon\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imconfig.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imgui.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imgui_impl_dx11.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imgui_impl_win32.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imgui_internal.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imstb_rectpack.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imstb_textedit.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\imstb_truetype.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\imgui\ja_glyph_ranges.h">
+      <Filter>Library\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\json11KdCustom\json11.hpp">
+      <Filter>Library\Json11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framework\Effekseer\KdEffekseerManager.h">
+      <Filter>Src\Framework\Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Game\ObjectSystem\Animation\Animation.h">
+      <Filter>Src\Application\Object\GameObject\ObjectSystem\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Result\ResultObject.h">
+      <Filter>Src\Application\Object\ResultObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Json\Json.h">
+      <Filter>Src\Application\Json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\main.cpp">
+      <Filter>Src\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\Direct3D\KdDirect3D.cpp">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\Direct3D\KdTexture.cpp">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\Direct3D\KdBuffer.cpp">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Direct3D\KdGLTFLoader.cpp">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Shader\KdShaderManager.cpp">
+      <Filter>Src\Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Shader\SpriteShader\KdSpriteShader.cpp">
+      <Filter>Src\Framework\Shader\SpriteShader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\Window\KdWindow.cpp">
+      <Filter>Src\Framework\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Utility\KdUtility.cpp">
+      <Filter>Src\Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\Direct3D\KdMesh.cpp">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Direct3D\KdModel.cpp">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Math\KdCollision.cpp">
+      <Filter>Src\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Math\KdAnimation.cpp">
+      <Filter>Src\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Audio\KdAudio.cpp">
+      <Filter>Src\Framework\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Direct3D\KdCamera.cpp">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Shader\HD2DShader\KdHD2DShader.cpp">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Shader\PostProcessShader\KdPostProcessShader.cpp">
+      <Filter>Src\Framework\Shader\PostProcessShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Math\KdCollider.cpp">
+      <Filter>Src\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Math\KdEasing.cpp">
+      <Filter>Src\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\GameObject\KdGameObject.cpp">
+      <Filter>Src\Framework\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\GameObject\KdGameObjectFactory.cpp">
+      <Filter>Src\Framework\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Input\KdInput.cpp">
+      <Filter>Src\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Utility\KdCSVData.cpp">
+      <Filter>Src\Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Direct3D\Polygon\KdSquarePolygon.cpp">
+      <Filter>Src\Framework\Direct3D\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Direct3D\Polygon\KdTrailPolygon.cpp">
+      <Filter>Src\Framework\Direct3D\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Direct3D\KdMaterial.cpp">
+      <Filter>Src\Framework\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Direct3D\Polygon\KdPolygon.cpp">
+      <Filter>Src\Framework\Direct3D\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Shader\KdAmbientController.cpp">
+      <Filter>Src\Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Math\KdUVAnimation.cpp">
+      <Filter>Src\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Shader\KdRenderTargetChange.cpp">
+      <Filter>Src\Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Utility\KdFPSController.cpp">
+      <Filter>Src\Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Utility\KdDebugWireFrame.cpp">
+      <Filter>Src\Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Ui\UiBase.cpp">
+      <Filter>Src\Application\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Ui\TitleUi\TitleUi.cpp">
+      <Filter>Src\Application\Ui\TitleUi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Ui\SelectUi\SelectUi.cpp">
+      <Filter>Src\Application\Ui\SelectUi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Ui\PlayerUi\PlayerUi.cpp">
+      <Filter>Src\Application\Ui\PlayerUi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Ui\EnemyUi\EnemyUi.cpp">
+      <Filter>Src\Application\Ui\EnemyUi</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\SceneManager.cpp">
+      <Filter>Src\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\TitleScene\TitleScene.cpp">
+      <Filter>Src\Application\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\SelectScene\SelectScene.cpp">
+      <Filter>Src\Application\Scene\SelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\GameScene\GameScene.cpp">
+      <Filter>Src\Application\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\BaseScene\BaseScene.cpp">
+      <Filter>Src\Application\Scene\BaseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Title\TitleObject.cpp">
+      <Filter>Src\Application\Object\TitleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Select\SelectObject.cpp">
+      <Filter>Src\Application\Object\SelectObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Camera\CameraBase\CameraBase.cpp">
+      <Filter>Src\Application\Object\Camera\CameraBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Camera\FreeCamera\FreeCamera.cpp">
+      <Filter>Src\Application\Object\Camera\FreeCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Camera\GameCamera\GameCamera.cpp">
+      <Filter>Src\Application\Object\Camera\GameCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Player\Player.cpp">
+      <Filter>Src\Application\Object\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\ObjectSystem\ObjectSystem.cpp">
+      <Filter>Src\Application\Object\GameObject\ObjectSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Enemy\EnemyBase.cpp">
+      <Filter>Src\Application\Object\GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Enemy\TrainingEnemy\TrainingEnemy.cpp">
+      <Filter>Src\Application\Object\GameObject\Enemy\TrainingEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Enemy\NormalEnemy\NormalEnemy.cpp">
+      <Filter>Src\Application\Object\GameObject\Enemy\NormalEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Stage\Stage.cpp">
+      <Filter>Src\Application\Object\GameObject\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Stage\StageObject\StageObject.cpp">
+      <Filter>Src\Application\Object\GameObject\Stage\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Stage\Sky\Sky.cpp">
+      <Filter>Src\Application\Object\GameObject\Stage\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Stage\Ground\Ground.cpp">
+      <Filter>Src\Application\Object\GameObject\Stage\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Weapon\WeaponBase.cpp">
+      <Filter>Src\Application\Object\GameObject\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Weapon\Rocket\Rocket.cpp">
+      <Filter>Src\Application\Object\GameObject\Weapon\Rocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Weapon\Rifle\Rifle.cpp">
+      <Filter>Src\Application\Object\GameObject\Weapon\Rifle</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Weapon\EleGun\EleGun.cpp">
+      <Filter>Src\Application\Object\GameObject\Weapon\EleGun</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\Weapon\Bullet\Bullet.cpp">
+      <Filter>Src\Application\Object\GameObject\Weapon\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui_demo.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui_draw.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui_impl_dx11.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui_impl_win32.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\imgui\imgui_widgets.cpp">
+      <Filter>Library\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\json11KdCustom\json11.cpp">
+      <Filter>Library\Json11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framework\Effekseer\KdEffekseerManager.cpp">
+      <Filter>Src\Framework\Effekseer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Game\ObjectSystem\Animation\Animation.cpp">
+      <Filter>Src\Application\Object\GameObject\ObjectSystem\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Result\ResultObject.cpp">
+      <Filter>Src\Application\Object\ResultObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Json\Json.cpp">
+      <Filter>Src\Application\Json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Src\Framework\Shader\inc_KdCommon.hlsli">
+      <Filter>Src\Framework\Shader</Filter>
+    </None>
+    <None Include="Src\Framework\Shader\SpriteShader\inc_KdSpriteShader.hlsli">
+      <Filter>Src\Framework\Shader\SpriteShader</Filter>
+    </None>
+    <None Include="Src\Framework\Shader\HD2DShader\inc_KdHD2DShader.hlsli">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </None>
+    <None Include="Src\Framework\Shader\PostProcessShader\inc_KdPostProcessShader.hlsli">
+      <Filter>Src\Framework\Shader\PostProcessShader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Src\Framework\Shader\SpriteShader\KdSpriteShader_PS.hlsl">
+      <Filter>Src\Framework\Shader\SpriteShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\SpriteShader\KdSpriteShader_VS.hlsl">
+      <Filter>Src\Framework\Shader\SpriteShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\HD2DShader\KdHD2DShader_VS_Lit.hlsl">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\HD2DShader\KdHD2DShader_PS_Lit.hlsl">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\PostProcessShader\KdPostProcessShader_PS_Blur.hlsl">
+      <Filter>Src\Framework\Shader\PostProcessShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\PostProcessShader\KdPostProcessShader_VS.hlsl">
+      <Filter>Src\Framework\Shader\PostProcessShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\PostProcessShader\KdPostProcessShader_PS_DoF.hlsl">
+      <Filter>Src\Framework\Shader\PostProcessShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\PostProcessShader\KdPostProcessShader_PS_Bright.hlsl">
+      <Filter>Src\Framework\Shader\PostProcessShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\HD2DShader\KdHD2DShader_PS_GenDepthMapFromLight.hlsl">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\HD2DShader\KdHD2DShader_VS_GenDepthMapFromLight.hlsl">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\HD2DShader\KdHD2DShader_PS_UnLit.hlsl">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\HD2DShader\KdHD2DShader_VS_UnLit.hlsl">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\HD2DShader\KdHD2DShader_VS_Skin.hlsl">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Src\Framework\Shader\HD2DShader\KdHD2DShader_VS_GenDepthMapFromLight_Skin.hlsl">
+      <Filter>Src\Framework\Shader\HD2DShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
